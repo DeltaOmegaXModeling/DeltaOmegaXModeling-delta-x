@@ -1,0 +1,57 @@
+{
+  "project": "ΔΩX — Archivum Perennis",
+  "version": "v3.3.1-perennis",
+  "generated_at": "2025-12-11T17:00Z",
+  "alliances": [
+    {
+      "id": "A001",
+      "name": "Alliance des Marais Boréaux",
+      "status": "active",
+      "sentinelles": [
+        {
+          "id": "S001",
+          "species": "Carex aquatilis",
+          "role": "sentinelle écologique",
+          "notes": "Indicateur de résilience hydrique"
+        },
+        {
+          "id": "S002",
+          "species": "Salix discolor",
+          "role": "sentinelle éthique",
+          "notes": "Arbre témoin des perturbations spatiales"
+        }
+      ]
+    },
+    {
+      "id": "A002",
+      "name": "Alliance des Tourbières Atlantiques",
+      "status": "draft",
+      "sentinelles": [
+        {
+          "id": "S003",
+          "species": "Sphagnum magellanicum",
+          "role": "sentinelle de mémoire",
+          "notes": "Stocke le carbone et les récits du sol"
+        }
+      ]
+    }
+  ],
+  "protocoles": [
+    {
+      "id": "P001",
+      "title": "Filtre spatial éthique",
+      "version": "v3.3.1",
+      "constraints": {
+        "basculement_standard_contraint": "30%",
+        "jitter_adaptatif": true
+      },
+      "notes": "À valider par audit réel multi-agent"
+    }
+  ],
+  "metadata": {
+    "author": "Alexandre",
+    "agents": ["Copilot", "DeepSeek", "Claude", "Qwen", "Gemini"],
+    "license": "CC-BY-SA",
+    "notes": "Structure minimale pour audit et reprise"
+  }
+}
