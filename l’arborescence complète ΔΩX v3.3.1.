@@ -1,0 +1,34 @@
+DeltaOmegaXModeling-delta-x/
+│
+├── README.md
+│
+├── contextes/
+│   ├── contextes-initiaux.md
+│   ├── copilot-traces.json
+│   ├── journal.md
+│   ├── preflight-checklist.md
+│   └── audit_spatial_v3.3.1-real.md
+│
+├── data/
+│   └── wetland-map.json
+│
+├── protocoles/
+│   └── protocole_init.md
+│
+├── alliances/
+│   └── alliances-index.md
+│
+├── sentinelles/
+│   └── sentinelles-index.md
+│
+├── docs/
+│   ├── ARCHIVUM_PERENNIS.md
+│   ├── CHANGELOG.md
+│   └── visuals/
+│       └── ΔΩX_v1.2.0-LIMS_source.svg
+│
+├── scripts/
+│   ├── create_assets.sh
+│   └── pre-flight-check.sh
+│
+└── VERSION
